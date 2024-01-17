@@ -58,9 +58,3 @@ def register():
 
 def unregister():
     bpy.utils.unregister_class(CustomPropertiesPanel)
-
-def register():
-    auto_load.register()
-
-def unregister():
-    auto_load.unregister()
